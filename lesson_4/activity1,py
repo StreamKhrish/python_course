@@ -1,0 +1,10 @@
+lst=[1,2,3,4,5,6,7]
+print("length of the list : ",len(lst))
+print("first element of the list : ",lst[0])
+print ("last element in the list : ",lst[-1])
+lst.remove(6)
+print("updated list : ",lst)
+lst.reverse()
+print("reversed list : ",lst)
+lst=lst[1:5]
+print("sliced list :",lst)
